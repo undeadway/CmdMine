@@ -35,13 +35,9 @@ public final class CLIGame extends AGame {
 				gameOver();
 				return;
 			} else if (action.equalsIgnoreCase("M")) {
-				if (status[where(x, y)].mark()) {
-					mark(x, y);
-				}
+				mark(x, y);
 			} else if (action.equalsIgnoreCase("C")) {
-				if (status[where(x, y)].cancel()) {
-					cancel(x, y);
-				}
+				cancel(x, y);
 			} else {
 				open(x, y);
 			}

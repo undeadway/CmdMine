@@ -30,8 +30,7 @@ public class Status {
 	}
 
 	public void mine() {
-		if (value == -1)
-			return;
+		if (value == -1) return;
 		value += 1;
 	}
 
