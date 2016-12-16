@@ -19,8 +19,7 @@ public class Status {
 	}
 
 	public boolean open() {
-		if (marked || opened)
-			return false;
+		if (marked || opened) return false;
 
 		if (value == -1) {
 			return false;
