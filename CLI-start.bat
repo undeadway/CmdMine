@@ -1,1 +1,1 @@
-java -jar mymine.jar CLI
+java -jar cmdmine.jar CLI
